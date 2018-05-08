@@ -2,6 +2,11 @@
 
 :memo::memo: An Intuitive Logrus Hook for Slack
 
+## Sample
+
+[![SlackLogrus ScreenShot]](http://res.cloudinary.com/hakase-labs/image/upload/v1525777621/slack-logrus_hexonr.png)
+
+
 ## Installation
 Using `go get`
 ```shell

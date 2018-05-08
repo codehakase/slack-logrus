@@ -35,7 +35,6 @@
 //     ...
 //     Options: fields,
 //   })
-
 package slacklogrus
 
 import (
