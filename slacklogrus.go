@@ -77,7 +77,6 @@ func (h *Hook) Fire(entry *logrus.Entry) error {
 	text := &chat.Message{
 		Username:  h.Username,
 		Channel:   h.Channel,
-		Text:      "*[New SlackLogrus Log]*",
 		IconEmoji: h.IconEmoji,
 		IconURL:   h.IconURL,
 	}
