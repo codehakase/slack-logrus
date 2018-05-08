@@ -4,7 +4,7 @@
 
 ## Sample
 
-[![SlackLogrus ScreenShot]](http://res.cloudinary.com/hakase-labs/image/upload/v1525777621/slack-logrus_hexonr.png)
+![SlackLogrus ScreenShot](http://res.cloudinary.com/hakase-labs/image/upload/v1525777621/slack-logrus_hexonr.png)
 
 
 ## Installation
