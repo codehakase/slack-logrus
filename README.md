@@ -35,7 +35,7 @@ func main() {
 To send custom fields to aid understand logging use add an `Options` field
 ```go
 fields := map[string]interface{}{
-  "hostname": "avivacore",
+  "hostname": "hakaselabs",
   "source":   os.Getenv("APISource"),
   "tag":      "test-tag",
 }
