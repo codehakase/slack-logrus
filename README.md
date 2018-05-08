@@ -1,4 +1,5 @@
-# slack-logrus
+# slack-logrus <img src="http://i.imgur.com/hTeVwmJ.png" width="40" height="40" alt=":walrus:" class="emoji" title=":walrus:" /> [![Build Status](https://travis-ci.org/codehakase/slack-logrus.svg?branch=master)](https://travis-ci.org/polds/logrus-papertrail-hook)&nbsp;[![godoc reference](https://godoc.org/github.com/codehakase/slack-logrus?status.png)]https://godoc.org/github.com/codehakase/slack-logrus)
+
 :memo::memo: An Intuitive Logrus Hook for Slack
 
 ## Installation

@@ -1,6 +1,6 @@
 language: go
 go:
   - master
-script: go get github.com/codehakase/slack-logrus && got get ./... && go test
+script: go get github.com/codehakase/slack-logrus && go get ./... && go test
 notifications:
   email: false
