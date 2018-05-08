@@ -1,0 +1,11 @@
+language: go
+go:
+  - 1.8
+  - 1.9
+  - 1.10
+  - tip
+install:
+  - mkdir -p $HOME/gopath/src/gopkg.in/codehakase
+  - mv $HOME/gopath/src/github.com/codehakase/slack-logrus $HOME/gopath/src/gopkg.in/codehakase/slack-logrus.v0
+  - cd $HOME/gopath/src/gopkg.in/polds/slack-logrus.v0
+- go get -t
