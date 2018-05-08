@@ -1,8 +1,5 @@
 language: go
 go:
-  - "1.8"
-  - "1.9"
-  - "1.10"
   - master
 script: go get github.com/codehakase/slack-logrus && got get ./... && go test
 notifications:
