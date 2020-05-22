@@ -143,7 +143,7 @@ func (h *Hook) SetLevels(level []logrus.Level) {
 
 // Levels sent to slack
 func (h *Hook) Levels() []logrus.Level {
-	if h.WithLevels != nil {
+	if h.WithLevels == nil {
 		return logrus.AllLevels
 	}
 	return h.WithLevels
