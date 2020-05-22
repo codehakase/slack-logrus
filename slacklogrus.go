@@ -60,6 +60,20 @@ type Hook struct {
 
 // Fire creates a new event, and sends to Slack
 func (h *Hook) Fire(entry *logrus.Entry) error {
+
+	var wlvl_match bool
+	for _, wlvl := range h.WithLevels {
+		if wlvl == entry.Level {
+			wlvl_match = true
+			break
+		}
+	}
+
+	// entry is not of desired log level
+	if !wlvl_match {
+		return nil
+	}
+
 	var color string
 	switch entry.Level {
 	case logrus.InfoLevel:
@@ -129,7 +143,7 @@ func (h *Hook) SetLevels(level []logrus.Level) {
 
 // Levels sent to slack
 func (h *Hook) Levels() []logrus.Level {
-	if h.WithLevels != nil {
+	if h.WithLevels == nil {
 		return logrus.AllLevels
 	}
 	return h.WithLevels
